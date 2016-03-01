@@ -31,12 +31,12 @@ Dependencies:
 You need the Python `enum`, `scapy`, and `pycrypto` packages.
 
 On a Debian system:
+`sudo apt-get install python-enum scapy python-crypto`
+and also run `pip install scapy-ssl_tls`
 
-`sudo apt-get install python-enum python-pyasn1 scapy python-crypto`
-
-and also run
-
-`pip install scapy-ssl_tls`
+On a Fedora/RHEL/CentOS system:
+`sudo yum install python-enum scapy python-crypto`
+and also run `pip install scapy-ssl_tls`
 
 Or with pip: `sudo pip install enum pycrypto scapy pyasn1 scapy-ssl_tls`
 
